@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './styles.scss'
 import Icon from '../assets/writing.svg'
 import LoginDialog from '../components/loginDialog/loginDialog'
+import { Link } from 'react-router-dom'
 
 export default class splachscreen extends Component {
     constructor() {
@@ -18,7 +19,7 @@ export default class splachscreen extends Component {
                         <button className="Login btn" onClick={() => {
                             this.setState({ dialog: !this.state.dialog })
                         }}>Login</button>
-                        <button className="Registration btn"> Registration</button>
+                        <Link to="/home"><button className="Registration btn"> Registration</button></Link>
                     </div>
                 </div>
                 <LoginDialog dialog={this.state.dialog} />

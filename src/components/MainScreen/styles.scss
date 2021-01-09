@@ -1,0 +1,9 @@
+.Main-screen-Container {
+  display: flex;
+  flex-direction: column;
+  .Topbar {
+    display: flex;
+    width: calc(100%);
+    justify-content: flex-end;
+  }
+}
