@@ -1,0 +1,48 @@
+.usermodel-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 50px);
+  overflow: auto;
+  max-height: 100%;
+  flex: 1;
+  .login-register-model {
+    display: flex;
+    width: 25%;
+    height: fit-content;
+    flex-direction: column;
+    border: 1px solid #49e20e;
+    .user-action {
+      display: flex;
+      width: 100%;
+      height: 60px;
+      button {
+        width: 100%;
+        height: inherit;
+        border: none;
+        color: #49e20e;
+        font-size: 20px;
+        background-color: #fff;
+        border-bottom: 1px dashed #49e20e;
+        cursor: pointer;
+      }
+      .link {
+        color: #49e20e;
+        width: 100%;
+        height: inherit;
+      }
+
+      .active {
+        background-color: #49e20e;
+
+        color: #fff;
+      }
+    }
+    .user-data {
+      width: 100%;
+      height: inherit;
+    }
+  }
+}

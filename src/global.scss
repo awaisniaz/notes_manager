@@ -1,0 +1,30 @@
+@import "antd/dist/antd.css";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: ivory;
+}
+input {
+  height: 40px;
+  border: 1px solid #49e20e;
+  margin: 15px;
+  padding: 5px;
+  background-color: #fff !important;
+  color: #49e20e;
+}
+::placeholder {
+  color: #49e20e;
+}
+Link {
+  color: #49e20e;
+}
