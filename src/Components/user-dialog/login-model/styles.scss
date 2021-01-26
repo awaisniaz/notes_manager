@@ -31,6 +31,9 @@
       width: 50%;
       height: inherit;
       margin: 5px;
+      &:hover {
+        background-color: #79c55b;
+      }
     }
   }
   .forget-password {

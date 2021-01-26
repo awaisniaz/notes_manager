@@ -27,6 +27,9 @@
         background-color: #fff;
         border-bottom: 1px dashed #49e20e;
         cursor: pointer;
+        &:hover {
+          background-color: #79c55b;
+        }
       }
       .link {
         color: #49e20e;
