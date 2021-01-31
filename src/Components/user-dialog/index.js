@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './styles.scss'
 import Login from './login-model/login'
 import Register from './register-dialog/index'
-import { Switch, Link, Route, BrowserRouter as Router } from 'react-router-dom'
+import { Switch, BrowserRouter as Router } from 'react-router-dom'
 export default function Userdialog() {
     const [login, setlogin] = useState(true)
     const [register, setregister] = useState(false)
@@ -23,7 +23,7 @@ export default function Userdialog() {
                     <Switch>
                         <div className="user-data">
                             {
-                                login ? <Login></Login> : <Register />
+                                login ? <Login/> : <Register />
                             }
 
 
