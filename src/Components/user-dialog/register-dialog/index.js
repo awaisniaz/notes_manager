@@ -7,7 +7,6 @@ export default function Registerdialog() {
     const passRef = useRef()
     const confirmRef = useRef()
     const fileRef = useRef()
-
     return (
         <div className="text-container">
             <div className="user-data">
@@ -42,11 +41,8 @@ export default function Registerdialog() {
                                     message.success(data.message)
                                 }
                             });
-
-
                     }}>Register</button>
             </div>
-
         </div>
     )
 }
